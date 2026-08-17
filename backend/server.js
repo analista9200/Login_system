@@ -1,6 +1,7 @@
 const express = require('express');
 const cors = require ('cors');
 const path = require('path');
+
 // importando rotas do sistema //
 const authRouts = require ('./routes/auth.js');
 
