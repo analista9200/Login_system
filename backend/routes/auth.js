@@ -4,7 +4,7 @@ const fs = require("fs-extra");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const path = require("path");
-const DB = path.join(__dirname, "../database/users.json");
+const DB = path.join(__dirname, "../../database/users.json");
 
 // ROTA DE REGISTRO
 router.post("/register", async (req, res) => {
